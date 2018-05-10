@@ -1,0 +1,54 @@
+body{
+    background-image: url("../images/background.jpeg");
+    background-repeat: repeat;
+    background-size: 100%;   
+}
+
+.textArea{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    padding: 0 2.5%;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(86, 87, 99, 0.671);
+}
+
+.content-style1{
+    width: 100%;
+    margin: 3% auto 8% auto;
+    position: relative;
+    font-family: 'Niconne', cursive;
+    text-align: center;
+    font-size: 33pt;
+    color: rgb(213, 213, 235);
+}
+
+.content-style2{
+    width: 100%;
+    margin: 3% auto 3% auto;
+    position: relative;
+    font-family: 'Niconne', cursive;
+    text-align: right;
+    font-size: 22pt;
+    color: rgb(184, 184, 206);
+}
+
+.content-style3{
+    width: 100%;
+    margin: 3% auto 5% auto;
+    position: relative;
+    font-family: 'Niconne', cursive;
+    text-align: center;
+    font-size: 25pt;
+    color: rgb(213, 213, 235);
+}
+
+
+/* .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
