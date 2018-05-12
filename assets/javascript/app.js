@@ -1,6 +1,6 @@
 var questionList = [
         {question: "What is the name of Reinhard von Lohengramm's warship?",
-        answers:["Brunhild", "Barbarossa", "Ulysses", "Tristan"],
+        answers:["Brunhilde", "Barbarossa", "Ulysses", "Tristan"],
         correctAnswer: 0
         },
         {question: "Which of the listed was not one of the three main parties in the story",
