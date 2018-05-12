@@ -12,24 +12,35 @@
 <body>
     <div class="textArea">
         <div class="content-style1" id="header">Legend of the Galactic Heroes Trivia Game</div>
-        <button id="start">Start the Game!</button>
-        <div id="content">
-            <div class="content-style2" id="timer"></div>
-            <div class="content-style2" id="currentQuestion"></div>
-            <div class="content-style3" id="question"></div>
-            <div class="content-style3" id="answers"></div>
-
-            <div class="content-style2" id="message"></div>
-            <div class="content-style2" id="correctAnswer"></div>
-            
-            <div class="content-style3" id="totalCorrect"></div>
-            <div class="content-style3" id="totalWrong"></div>
-            <button id="restart"></button>
-            
+        <button class="button-style1" id="start">Start the Game</button>
+        <!-- show timer and questions -->
+        <div id="questionContent">
+            <div class="content-style2" id="timer">Time Remaining: 
+                <span id="currentSecond"></span>s
+            </div>
+            <div class="content-style3" id="questionShow"></div>
+            <div class="content-style3" id="answersShow"></div>
+        </div>
+        <!-- show message after each question -->
+        <div id="messageContent">
+            <div class="content-style3" id="message"></div>
+            <div class="content-style3" id="correctAnswerShow"></div> 
+        </div>
+        <!-- show final message and restart button -->
+        <div id="resultsContent">
+            <div class="content-style3" id="totalCorrect">Correct Answers: 
+                <span id="totalCorrectCount"></span>/5
+            </div>
+            <div class="content-style3" id="totalWrong">Incorrect Answers:
+                <span id="totalWrongCount"></span>/5
+            </div>  
+            <button class="button-style1" id="restart">Play the Game Again</button>          
         </div> 
+
+        
     </div>
 
-    <script src="./assets/javascript/game.js"></script>
+    <script src="./assets/javascript/app.js"></script>
     
 </body>
 </html>

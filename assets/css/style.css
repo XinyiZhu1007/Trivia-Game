@@ -46,9 +46,24 @@ body{
     color: rgb(213, 213, 235);
 }
 
+.button-style1{
+    width: 40%;
+    margin: 3% auto 3% auto;
+    position: relative;
+    font-family: 'Niconne', cursive;
+    text-align: center;
+    font-size: 25pt;
+    color: rgb(37, 37, 83);
+}
 
-/* .clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
+/* #questionContent{
+    display: none;
+}
+
+#resultsContent{
+    display: none;
+}
+
+#restart{
+    display: none;
 } */
