@@ -78,8 +78,8 @@ function newGame() {
 
 function playGame() {
     if(currentQuestion == questionList.length) {
-        $("#totalCorrectCount").text(correctCount);
-        $("#totalWrongCount").text(incorrectCount);
+        $("#totalCorrectCount").text(correctCount + " / " + questionList.length);
+        $("#totalWrongCount").text(incorrectCount + " / " + questionList.length);
         $("#questionContent").hide();
         $("#timer").hide();
         $("#messageContent").hide();
