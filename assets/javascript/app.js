@@ -149,6 +149,7 @@ function showAnswer() {
     } else if(ifAnwswered === false && seconds < 1) {
         $("#message").text("Time is Up!");
         $("#correctAnswerShow").text("The Correct Answer is: " + questionList[currentQuestion].answers[questionList[currentQuestion].correctAnswer]);;
+        $("#correctAnswerShow").show();
         incorrectCount++;
     };
     currentQuestion++;
